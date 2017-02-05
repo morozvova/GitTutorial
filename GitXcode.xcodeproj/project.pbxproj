@@ -12,6 +12,7 @@
 		E77E23991E47944F00157ACC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E77E23971E47944F00157ACC /* Main.storyboard */; };
 		E77E239B1E47944F00157ACC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E77E239A1E47944F00157ACC /* Assets.xcassets */; };
 		E77E239E1E47944F00157ACC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E77E239C1E47944F00157ACC /* LaunchScreen.storyboard */; };
+		E77E23A61E47990000157ACC /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77E23A51E47990000157ACC /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E77E239A1E47944F00157ACC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E77E239D1E47944F00157ACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E77E239F1E47944F00157ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E77E23A51E47990000157ACC /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				E77E23931E47944F00157ACC /* AppDelegate.swift */,
 				E77E23951E47944F00157ACC /* ViewController.swift */,
 				E77E23971E47944F00157ACC /* Main.storyboard */,
+				E77E23A51E47990000157ACC /* MapViewController.swift */,
 				E77E239A1E47944F00157ACC /* Assets.xcassets */,
 				E77E239C1E47944F00157ACC /* LaunchScreen.storyboard */,
 				E77E239F1E47944F00157ACC /* Info.plist */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E77E23961E47944F00157ACC /* ViewController.swift in Sources */,
+				E77E23A61E47990000157ACC /* MapViewController.swift in Sources */,
 				E77E23941E47944F00157ACC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
